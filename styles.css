@@ -39,7 +39,7 @@ body {
 
 
 /* Navbar */
-#navbar-container {
+nav {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
@@ -52,12 +52,44 @@ body {
     padding-bottom: 4px;
 }
 
-#navbar {
+#nav-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     max-width: 1024px;
+}
+
+/*Header Section*/
+header {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+#header-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    width: 100%;
+}
+
+#avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0px 10px;
+}
+
+/* Contact Info */
+#contact-info {
+    margin-top: 20px;
+}
+
+#contact-info span {
+    margin-top: 0.25em;
+    display: block;
 }
 
 #tabs a {
@@ -74,6 +106,15 @@ body {
 
 .current-tab {
     border-bottom: 2px solid #00bbc2;
+}
+
+/* Work Experience */
+.work-section {
+    align-items: flex-start;
+}
+
+.work-section img {
+    margin-top: 1em;
 }
 
 /*Skills & Technologies*/
@@ -114,32 +155,6 @@ body {
     padding: 0px 6px;
 }
 
-/*Header Section*/
-#header-section {
-    display: flex;
-    align-items: flex-end;
-    padding: 0px 20px;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-}
-
-#header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: left;
-    width: 100%;
-}
-
-#email-address {
-    margin-top: 20px;
-    
-}
-
-#avatar {
-    border-radius: 50%;
-    object-fit: cover;
-    padding: 0px 10px;
-}
 
 /* Certifications & Education */
 #certs-education {
