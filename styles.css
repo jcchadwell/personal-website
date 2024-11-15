@@ -16,8 +16,7 @@ body {
 #content {
     flex-direction: column;
     align-items: left;
-    width: 70%;
-    max-width: 1024px;
+    max-width: 872px;
     height: 1600px;
     padding-bottom: 400px;
     position: relative;
