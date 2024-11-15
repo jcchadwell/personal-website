@@ -31,6 +31,7 @@ body {
     border-radius: 14px;
     margin: 20px 0px 3em 0px;
     align-items: center;
+    overflow: hidden;
 }
 
 .content-section-text {
