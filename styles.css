@@ -32,6 +32,7 @@ body {
     margin: 20px 0px 3em 0px;
     align-items: center;
     overflow: hidden;
+    word-wrap: break-word;
 }
 
 .content-section-text {
