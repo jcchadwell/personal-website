@@ -1,8 +1,9 @@
 /* Main Styles */
-body {
+html, body {
     background-image: linear-gradient(#122233, #091018 90%);
     color: #bae9ff;
     font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
 }
 
 #container {
@@ -10,7 +11,6 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: purple;
 }
 
 #content {
