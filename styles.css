@@ -1,0 +1,249 @@
+/* Main Styles */
+body {
+    background-image: linear-gradient(#122233, #091018 90%);
+    color: #bae9ff;
+    font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+
+#content {
+    flex-direction: column;
+    align-items: left;
+    width: 70%;
+    max-width: 1024px;
+    height: 1500px;
+    padding-bottom: 400px;
+    position: relative;
+    margin-top: 72px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: left;
+    border: 1px solid #00bbc2;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px 0px 3em 0px;
+    align-items: center;
+}
+
+.contect-section-text {
+    margin-left: 20px;
+}
+
+
+/* Navbar */
+#navbar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    background-color: rgba(18, 34, 51, 0.95);
+    padding-bottom: 4px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1024px;
+}
+
+#tabs a {
+    margin: 0px 15px;
+    padding-bottom: 4px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#tabs a:hover {
+    color: #00bbc2;
+    border-bottom: 2px solid #018085;
+}
+
+.current-tab {
+    border-bottom: 2px solid #00bbc2;
+}
+
+/*Skills & Technologies*/
+.skill-tags-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.skill-tags {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 4px;
+    flex-wrap: wrap;
+    width: 60%;
+
+}
+
+.technologies-container {
+    display: flex;
+    gap: 8px;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.skill-tags span, .technologies span {
+    color: #22f6fd;
+    border: 1px solid #3e5970;
+    background-color: #293d49;
+    border-radius: 7px; 
+    width: fit-content; 
+    padding: 0px 6px;
+}
+
+/*Header Section*/
+#header-section {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+#header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    width: 100%;
+}
+
+#email-address {
+    margin-top: 20px;
+    
+}
+
+#avatar {
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 0px 10px;
+}
+
+/*Certifications & Education*/
+#certs-education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.cert-section {
+    display: block;
+    border: 1px solid #00bbc2;
+    text-align: center;
+    padding: 10px;
+    border-radius: 14px;
+    margin: 20px 0px;
+    width: 25%;
+    height: 320px;
+}
+
+.cert-section img {
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+
+}
+
+.cert-section svg {
+    padding: 10px;
+}
+
+.cert-section h4 span {
+    margin-left: 4px;
+}
+
+#header-text {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#header-text span {
+    font-size: 18px;
+}
+
+#greeting {
+    text-align: left;
+}
+
+h1 {
+    font-size: 72px;
+    margin-bottom: 12px;
+    color: #bafdff;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    color: #bafdff;
+    padding: 0px;
+}
+
+h4 {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+#social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    padding: 2px 4px;
+    float: right;
+    align-items: center;
+    gap: 8px;
+}
+
+#social-icons img {
+    border-radius: 50%;
+    padding: 0px 2px;
+}
+
+a, a:visited, a:hover, a:active {
+    color: #bafdff;
+    text-decoration: none;
+  }
+
+#email-button {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.buttons {
+    border: 1px solid #00f7ff;;
+    color: #00f7ff;
+    padding: 12px;
+    text-align: center;
+}
