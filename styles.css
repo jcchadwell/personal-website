@@ -62,27 +62,6 @@ html, body {
     float: left;
 }
 
-/* Contact Info */
-
-#contact-info-container {
-    margin-top: 20px;
-}
-
-#contact-info {
-    width: 100%;
-    max-width: 40em;
-    border: 1px solid #00bbc2;
-    border-radius: 7px;
-    padding: 1em 12px;
-    overflow: hidden;
-}
-
-#contact-info span {
-    margin-top: 0.25em;
-    display: block;
-}
-
-
 
 /* Work Experience */
 .work-section {
@@ -241,7 +220,6 @@ a, a:visited, a:hover, a:active {
 
 .buttons {
     border: 1px solid #00f7ff;
-    ;
     color: #00f7ff;
     padding: 12px;
     text-align: center;
